@@ -31,10 +31,15 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
 
-}
+  let productofNumbers = a * b;
+  let myProductArray = [productofNumbers,'The product of ' +a+' and ' +b+' is ' + productofNumbers + '.']
+  return myProductArray
 
+}
 // Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+testMultiply(5,9);
+
+// Here is something for ACP
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -49,7 +54,10 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
   // sum, the function you wroote above, will do the math for you!
-}
+//   let mysumAndMultiplyArray[sumOfNumbers, 'The sum of' +a+' and ' +b+' is ' + productofNumbers  productofNumbers, 'a' and 7 and 5 sum to 16." ]
+// } sum(a,b,c)
+//   multiply(a,b,c)
+
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
 // testSumAndMultiply(4,7,5);
@@ -116,3 +124,4 @@ function multiplyAnyArray(dynamicArray) { //eslint-disable-line
 // testMultiplyAnyArray(testDynamicArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. You're done! Submit the link to the repo following the instructions in Canvas.
+}
